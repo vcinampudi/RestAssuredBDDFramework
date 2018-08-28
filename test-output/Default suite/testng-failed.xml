@@ -5,7 +5,7 @@
     <classes>
       <class name="qa.com.rest.test.GetCallBDD">
         <methods>
-          <include name="test_NumberofCircuitsFor2017_Season"/>
+          <include name="GetWeatherDetails"/>
         </methods>
       </class> <!-- qa.com.rest.test.GetCallBDD -->
     </classes>
