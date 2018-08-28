@@ -17,7 +17,10 @@ public class GetCallBDD {
 		
 		given().
 		when().
-		get("https://ergast.com/api/f1/2017/cicuits.json");
+		get("https://ergast.com/api/f1/2017/cicuits.json").
+		then().
+		assertThat().
+		body("MRData.CircuitTable.Circuits.circuitId");
 		
 	}	
 }
